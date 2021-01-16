@@ -9,11 +9,6 @@ public class EmpleadoFrame extends javax.swing.JFrame {
 
     private RegistroEmpleado registro = new RegistroEmpleado(this);
 
-    public void nuevo()
-    {
-        ShowChild(registro,true);
-    }
-    
     public void openACT(Empleados auto) {
         registro.setAutoData(auto);
     }
@@ -44,10 +39,6 @@ public class EmpleadoFrame extends javax.swing.JFrame {
         JB_Clear.addActionListener(ac);
         JM_New.addActionListener(ac);
         
-    }
-
-    public void EditJMenu(boolean B) {
-        //JM_Save.setEnabled(B);
     }
 
     public RegistroEmpleado returRegistro() {

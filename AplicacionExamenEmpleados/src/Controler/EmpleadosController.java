@@ -46,7 +46,8 @@ public class EmpleadosController implements ActionListener, ItemListener {
 
             case "Nuevo" ->
             {
-                aframe.nuevo();
+                RegistroEmpleado emp = new RegistroEmpleado(aframe);
+                aframe.ShowChild(emp, true);
             }
             case "OPEN" -> {
                 std = d.showOpenDialog(aframe);

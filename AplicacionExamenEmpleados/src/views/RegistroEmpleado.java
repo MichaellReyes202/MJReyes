@@ -8,7 +8,6 @@ public class RegistroEmpleado extends javax.swing.JInternalFrame {
     private static final long serialVersionUID = 1L;
 
     // contructor 
-    
     public RegistroEmpleado(EmpleadoFrame fm) {
         initComponents();
         setupController();
